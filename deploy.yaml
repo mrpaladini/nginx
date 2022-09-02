@@ -21,6 +21,4 @@ spec:
       containers:
       - image: nginx
         name: nginx
-        volumeMounts:
-        - name: nfs-test
-          mountPath: /usr/share/nginx/html
+        
